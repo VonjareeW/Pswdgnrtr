@@ -5,8 +5,8 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
   const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
   const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   const numericChars = '0123456789';
-  var SpecialChars = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~'];
-  
+  const specialChars = '~!@#$%^&*()_+{}|:"<>?'
+
   let availableChars = '';
 
     if (includeLowercase) {
@@ -27,7 +27,7 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
     password += availableChars[randomIndex];
   }
   if (password.length < 8 || password.length > 128) {
-    return "The length of the password must be within 8 to 128 characters.”;
+    return 'The length of the password must be within 8 to 128 characters.' ;
   }
 
   function getPasswordCriteria() {

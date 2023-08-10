@@ -29,6 +29,9 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
   if (password.length < 8 || password.length > 128) {
     return 'The length of the password must be within 8 to 128 characters.' ;
   }
+  return password;
+}
+
 
   function getPasswordCriteria() {
   const length = parseInt(prompt("Enter your desired  password length"));

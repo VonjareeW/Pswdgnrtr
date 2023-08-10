@@ -5,7 +5,7 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
   const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
   const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   const numericChars = '0123456789';
-  const specialChars = '~!@#$%^&*()_+{}|:"<>?'
+  const specialChars = '~!@#$%^&*()_+{}|:"<>?';
 
   let availableChars = '';
 

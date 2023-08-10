@@ -1,4 +1,4 @@
-# Passwordgnrtr
+# Pswdgnrtr
 This program creates a password based on user selected criteria
 
 #User Story
@@ -24,10 +24,11 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 #Website Screenshot
-![passwrdgenrtr](https://github.com/VonjareeW/Passwordgnrtr/assets/52430595/0160b340-4ee9-4f8b-b0c6-ddb9fd879f71)
+<img width="1440" alt="Screenshot 2023-08-10 at 6 41 41 PM" src="https://github.com/VonjareeW/Pswdgnrtr/assets/52430595/70852433-48bb-42bf-8d77-dc34312595f7">
+
 
 #Deployed Website
-https://vonjareew.github.io/
+https://vonjareew.github.io/Pswdgnrtr/
 
 
 

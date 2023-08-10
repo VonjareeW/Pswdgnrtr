@@ -26,7 +26,10 @@ THEN the password is either displayed in an alert or written to the page
 #Website Screenshot
 
 #Deployed Website
+https://vonjareew.github.io/Pswdgnrtr/
 
 
 
 #Resources
+
+Starter code was retrieve and cloned from https://github.com/coding-boot-camp/friendly-parakeet.git

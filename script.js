@@ -1,7 +1,7 @@
 // Assignment code here
 
 function generatePassword(length, includeLowercase, includeUppercase, includeNumbers, includeSpecialChars) {
-  let password = "";
+  let password = '';
   const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
   const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   const numericChars = '0123456789';
@@ -34,7 +34,7 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
 
 
   function getPasswordCriteria() {
-  const length = parseInt(prompt("Enter your desired  password length"));
+  const length = parseInt(prompt("Enter your desired password length"));
   
   const includeLowercase = confirm("Do you want to feature any lowercase letters?");
   const includeUppercase = confirm("Do you want to feature any uppercase letters?");
@@ -63,7 +63,7 @@ generateButton.addEventListener("click", () => {
     passwordCriteria.includeLowercase,
     passwordCriteria.includeUppercase,
     passwordCriteria.includeNumbers,
-    passwordCriteria.includeSpecialChars
+    passwordCriteria.includeSpecialChars,
   );
   
   var passwordText = document.querySelector("#password");
@@ -72,7 +72,7 @@ generateButton.addEventListener("click", () => {
 
 
 // Get references to the #generate element
-//var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {

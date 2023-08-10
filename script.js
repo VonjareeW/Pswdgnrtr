@@ -2,12 +2,12 @@
 
 function generatePassword(length, includeLowercase, includeUppercase, includeNumbers, includeSpecialChars) {
   let password = "";
-  const lowercaseChars = "abcdefghijklmnopqrstuvwxyz”;
-  const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ”;
-  const numericChars = "0123456789”;
-  const specialChars = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+  const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz”;
+  const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ”;
+  const numericChars = '0123456789”;
+  const specialChars = '!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
   
-  let availableChars = "”;
+  let availableChars = '';
 
     if (includeLowercase) {
     availableChars += lowercaseChars;

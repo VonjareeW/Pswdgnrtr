@@ -1,5 +1,5 @@
-# Pswdgnrtr
-This module creates a password based on specific preferences by the user.
+# Passwordgnrtr
+This program creates a password based on user selected criteria
 
 #User Story
 AS AN employee with access to sensitive data
@@ -24,9 +24,10 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 #Website Screenshot
+![passwrdgenrtr](https://github.com/VonjareeW/Passwordgnrtr/assets/52430595/0160b340-4ee9-4f8b-b0c6-ddb9fd879f71)
 
 #Deployed Website
-https://vonjareew.github.io/Pswdgnrtr/
+https://vonjareew.github.io/
 
 
 

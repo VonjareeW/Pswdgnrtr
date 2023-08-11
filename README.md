@@ -34,4 +34,8 @@ https://vonjareew.github.io/Pswdgnrtr/
 
 #Resources
 
+
+https://owasp.org/www-community/password-special-characters
+
+Source code
 Starter code was retrieve and cloned from https://github.com/coding-boot-camp/friendly-parakeet.git
